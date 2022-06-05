@@ -1,2 +1,2 @@
 #!/bin/bash
-echo print
+gcc 4-main.c
