@@ -1,21 +1,23 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * main - Entry point
- * writes out _putchar to stdout, followed by a new line
+ *main -entry point
  *
- * Return - Always 0 (Success)
+ *Description: A program that prints 'putchar' followed by a new line.
+ *
+ * Return: 0 on Success
+ *
  */
-int main()
+
+int main(void)
 {
-char c[8] = "_putchar";
-int i;
-for (i = 0; i < 8; i++);
-{
-_putchar(c[i]);
-}
-_putchar('\n');
- 
-return (0);
+	int i;
+	char printputchar[8] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(printputchar[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
