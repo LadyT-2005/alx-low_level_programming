@@ -2,7 +2,7 @@
 
 /**
  * _islower -Entry point
- * int c - checker
+ * @c: character to be checked
  * Description: to check for lowercase
  * Return: 0
  */
@@ -12,9 +12,8 @@ int _islower(int c)
 	{
 		return (0);
 	}
-	else 
+	else
 	{
 		return (1);
 	}
 }
-	
