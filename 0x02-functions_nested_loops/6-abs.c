@@ -2,19 +2,21 @@
 
 /**
  * _abs - Entry point
- * Description: compute absolute value of integer
+ * @c: checker to be checked
+ * Description: absolute value
  * Return: 0
- * @a: checker to be checked.
  */
-int _abs(int a)
+int _abs(int c)
 {
-	if (_abs(a < 0))
+	if (c < 0)
 	{
-		_putchar(a);
+		_abs(c);
+		_putchar(c);
 	}
-	else if (_abs(a > 0))
+	else if (c > 0)
 	{
-		_putchar(a);
+		_abs(c);
+		_putchar(c);
 	}
 	else
 	{
